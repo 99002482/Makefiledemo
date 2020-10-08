@@ -1,8 +1,11 @@
 #include <add.h>
 
-int add(int operand1, int operand2)
+int main()
 {
-    return operand1 + operand2;
+    int operand1=0,operand2=0,sum;
+    sum=add(operand1,operand2);
+    printf("%d",sum);
 }
+    
 
 
